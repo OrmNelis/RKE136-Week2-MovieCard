@@ -28,7 +28,7 @@ html {
     /*add for animation*/
     position: relative;
     left: -50rem;
-    animation: slide-from-left 3s ease-in-out forwards;
+    animation: slide-from-left 3.5s ease-in-out forwards;
 }
 
 @keyframes slide-from-left {
@@ -59,7 +59,7 @@ html {
 
 .movie-info-container > *:not(.movie-info-title){
     opacity: 0;
-    animation: fade-in 3s ease-in-out forwards;
+    animation: fade-in 3.5s ease-in-out forwards;
     animation-delay: 1s;
 }
 
